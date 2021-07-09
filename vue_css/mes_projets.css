@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+body{
+    /*background-color: #303030*/
+    /*background-image:url(" ../assets/images/taille_p.svg");*/
+    background-image:url("../assets/images/pr.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end;
+    background-color:#0E0D0D;
+    opacity: 0.8;
+    padding:25px 10px;
+}
+.logob{
+    width: 250px;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    top:10px;
+    left:40%;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: honeydew;
+    font-size :16px ;
+}
+.liens li  {
+    display: inline-block;
+    padding: 0px 20px;
+}
+h2{position: relative;
+    top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.vue_proj{
+    width: 50%;
+    height: 59vh;
+    background-color:  rgba(238, 248, 238, 0.84);
+    position:relative;
+    left: 25%;
+    top: 18%;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid : 
+    "p1 p1 p1"
+    "p2 p2 p2"
+    "p3 p3 p3"
+    "p4 p4 p4"
+    "p5 p5 p5";
+}
+.p1{
+    grid-area: p1;
+    display: flex;
+    padding: 20px;
+}
+.p1:hover{
+    transform: scale(1.03);
+    background-color: #1995AD;
+    border-radius: 16px;
+}
+.p2:hover{
+    transform: scale(1.03);
+    background-color: #1995AD;
+    border-radius: 16px;
+}
+.p3:hover{
+    transform: scale(1.03);
+    background-color: #1995AD;
+    border-radius: 16px;
+}
+.p4:hover{
+    transform: scale(1.03);
+    background-color: #1995AD;
+    border-radius: 16px;
+}
+.p5:hover{
+    transform: scale(1.03);
+    background-color: #1995AD;
+    border-radius: 16px;
+}
+.p1>p{
+    margin-left: 15px;
+}
+a{
+    width: 180px;
+    margin-left: 50px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #0E0D0D;
+    font-size: 16px;
+}
+a:hover{
+    color: #fff;
+    transform: scale(1.10);
+}
+.p2{
+    grid-area: p2;
+    display: flex;
+    padding: 20px;
+}
+.p2>p{
+    margin-left: 15px;
+}
+.p3{
+    grid-area: p3;
+    display: flex;
+    padding: 20px;
+}
+.p3>p{
+    margin-left: 15px;
+}
+.p4{
+    grid-area: p4;
+    display: flex;
+    padding: 20px;
+}
+.p4>p{
+    margin-left: 15px;
+}
+.p5{
+    grid-area: p5;
+    display: flex;
+    padding: 20px;
+}
+.p5>p{
+    margin-left: 15px;
+}
+footer{
+        position:absolute;
+        top: 900px;
+        height: 50px;
+        width: 100%;
+        background-color: blueviolet;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #0E0D0D;
+        opacity: 0.8;
+    }
+    .by{
+        width:100%;
+        color:#ffff;
+        font-size: 12px;
+    }
+@media screen and (max-width: 438px){
+    body{
+        height: 1400px;
+    }
+    header{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:flex-start;
+        height: 20px;
+        }
+        .liens li  {
+        display: block;
+        position: relative;
+        top: 20px;
+        padding: 10px 20px;
+    }
+        .burger{
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    top:5px;
+}
+.logob{
+    width: 200px;
+    height: 40px;
+    z-index: 1;
+    position: absolute;
+    top:10px;
+    left: 27%;
+
+}
+.burger div{
+    height: 6px;
+    width: 40px;
+    background-color: #ffff;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.animation1{
+    display:block;
+    animation: bur 2s ;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+@keyframes bur{
+    from{
+        left:-200px;
+    }
+    to{
+        left:0px;
+    }
+}
+.burger:active{
+    color: red;
+}
+.liens{
+    position: relative;
+    top:45px;
+    left: -10px;
+    height: 150px;
+    width: 50%;
+}
+.liens li {
+display: block;
+position: relative;
+top: 20px;
+padding: 20px 20px; 
+}
+ul{
+    
+    height: 220px;
+    width: 100%;
+    background-color: #0E0D0D;
+    
+    background-color: #0E0D0D;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    border-top: 3px solid #ffff;
+    display:block;
+    position: relative;
+    left:-200px;
+
+}
+    .vue_proj{
+        top: 15%;
+        height: 140vh;
+        width: 370px;
+        left: 5%;
+        grid-template-columns: 1fr 100px 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        row-gap: 0px;
+    
+    }
+    .p1{
+        flex-direction: column;
+        padding: 0;
+       
+    }
+    .p1:nth-child(2){
+        width: 50px;
+    }
+    .p1>p{
+    margin-left: 0px;
+    padding: 20px;
+    }
+    .p2{
+        flex-direction: column;
+        padding: 0;
+       
+    }
+    .p2>p{
+    margin-left: 0px;
+    padding: 20px;
+    }
+    .p3{
+        flex-direction: column;
+        padding: 0;
+       
+    }
+    .p3>p{
+    margin-left: 0px;
+    padding: 20px;
+    }
+    .p4{
+        flex-direction: column;
+        padding: 0;
+       
+    }
+    .p4>p{
+        margin-left: 0px;
+        padding: 20px;
+    }
+    .p5{
+        flex-direction: column;
+        padding: 0;
+       
+    }
+    .p5>p{
+        margin-left: 0px;
+        padding: 20px;
+    }
+    a{
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: none;
+    }
+    footer{
+        position:absolute;
+        top: 1400px;
+        height: 50px;
+        width: 100%;
+        background-color: blueviolet;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #0E0D0D;
+        opacity: 0.8;
+    }
+    .by{
+        width:100%;
+        color:#ffff;
+        font-size: 12px;
+    }
+
+}
