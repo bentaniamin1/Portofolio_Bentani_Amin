@@ -18,7 +18,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
-            height: 98vh;
+            height: 110vh;
         }
         header{
             display: flex;
@@ -416,6 +416,36 @@
             justify-content: center;
 
         }
+        .imgsql{
+            width: 80%;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-end: 9;
+            grid-row-start: 8;
+            margin-left: 20px;
+
+        }
+        .nomsql{
+            
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-end: 9;
+            grid-row-start: 8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .niveausql{
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-end: 9;
+            grid-row-start: 8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
 
         .l1left button{
             padding: -15px -5px;
@@ -440,6 +470,7 @@
             padding: 25px;
             padding-top: 50px;
             height: 70vh;
+            top:-10px;
 
         }
         .imghetic{
@@ -623,12 +654,16 @@
             margin: 50px;
             padding: 25px;
             top: -30px;
+            height: 400px;
         }
         .mes_a{
+            position:relative;
+            top:-100px;
             grid-column-start: 2;
             grid-column-end: 4;
             grid-row-start:2;
             grid-row-end:7;
+            font-size: 22px;
         }
         .mes_passions{
             border-radius: 15px;
@@ -645,7 +680,7 @@
             /*background-color:  #9fda9f;*/
             padding-left: 100px;
             margin: 15px;
-            top: -30px;
+            top: -35px;
         }
         .imgp1{
             grid-column-start: 1;
@@ -715,7 +750,7 @@
             }
             footer{
                 position:absolute;
-                top: 100.5vh;
+                top: 110vh;
                 height: 50px;
                 width: 100%;
                 background-color: blueviolet;
@@ -897,6 +932,7 @@
             width: 300px;
             position: relative;
             right: 75px;
+            top:20px
 
         }
         .mes_passions{
@@ -905,6 +941,7 @@
             position: relative;
             right: 90px;
             padding-left: 50px;
+            top:20px
 
         }
         
@@ -912,7 +949,8 @@
             
             width: 250px;
             position: relative;
-            right: 90px;
+            right: 100px;
+            height: 350px;
 
         }
         .met {
@@ -931,6 +969,15 @@
     font-size: 14px;
     width: 250px;
 }
+ .mes_a{    position: relative ;
+            top:-100px;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start:2;
+            grid-row-end:7;
+            font-size: 20px;
+            height: 250px;
+        }
         .nom{
             font-size: 20px;
             text-align: left;
@@ -992,7 +1039,7 @@ footer{
             <button id="mes_competences" class="btn competences">Mes compètences</button>
             <button id="mes_formations" class="btn formations">Mes Formations</button>
             <button id="mes_atouts"class="btn atouts">Mes Atouts</button>
-            <button id="mes_passions" class="btn passions">Mes Passsions</button>
+            <button id="mes_passions" class="btn passions">Mes Passions</button>
         </section>
         <section class="r1right" id="r1">
         </section>

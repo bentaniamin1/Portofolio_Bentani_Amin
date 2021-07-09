@@ -1,12 +1,12 @@
 let qui_je_s = document.getElementById("qui_je_s").addEventListener("click",()=>{
     let btn1 =
     `
-    <h1 class="a_propos_de">Bonjour !</h1>
+    <h1 class="a_propos_de">BONJOUR !</h1>
     <div class="contenu_de_a_propos">
         <img class="monimg" src="assets/images/IMG_20210602_165837 1.png" alt="">
         <h2 class="nom">BENTANI Amin</h2>
         <h3 class="met">Développeur Full-stack/Back-end</h3>
-        <p class="moi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, culpa doloribus accusamus hic dolore ipsum quaerat repellat delectus recusandae nisi non blanditiis nam consequatur eveniet deleniti! Rerum tempora quaerat odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium quaerat non nostrum repellendus molestias soluta corporis accusantium fugit, quod tempora error! Laborum incidunt reiciendis sit sed quaerat aperiam vel.</p>
+        <p class="moi">Suite à un premier parcours dans le domaine de la santé et par la suite dans un parcours Linguistique, j'ai décidé de faire aujourd'hui une reconversion  en suivant le Bachelor Web d'Hetic et en faisant de ma passion mon métier. Par conséquent après cette première année de formation, je suis en recherche d’un stage à partir du 21 juin 2021 de 2 à 3 mois et d’une alternance dès octobre 2021, qui me permettront de consolider et mettre en oeuvre  mon savoir dans le développement front et back.</p>
     </div>
     `
     let right = document.querySelector(".r1right");
@@ -37,6 +37,9 @@ let mes_competences =  document.getElementById("mes_competences").addEventListen
             <img src="assets/icons/iconfinder_7564187_figma_logo_brand_icon.svg" alt="" class="imgfigma">
             <p class="nomfigma">FIGMA</p>
             <p class="niveaufigma">MOYEN</p>
+            <img src="assets/icons/iconfinder_4691303_mysql_icon.svg" alt="" class="imgsql">
+            <p class="nomsql">SQL</p>
+            <p class="niveausql">MOYEN</p>
     </div>`
     let right = document.querySelector(".r1right");
     right.innerHTML = btn2;
@@ -44,7 +47,7 @@ let mes_competences =  document.getElementById("mes_competences").addEventListen
 });
 let mes_formations =  document.getElementById("mes_formations").addEventListener("click", ()=>{
     let btn3 =
-    ` <h1 class="a_propos_de">Formations</h1>
+    ` <h1 class="a_propos_de">FORMATIONS</h1>
     <div class="mes_formations">
             <img src="assets/icons/henri_martin.png" alt="" class="imgbac">
             <p class="y2018">2018-2019</p>
@@ -69,7 +72,7 @@ let mes_formations =  document.getElementById("mes_formations").addEventListener
 })
 let mes_atouts =  document.getElementById("mes_atouts").addEventListener("click", ()=>{
     let btn4 =
-    ` <h1 class="a_propos_de">Atouts</h1>
+    ` <h1 class="a_propos_de">ATOUTS</h1>
     <div class="mes_atouts">
         <p class="mes_a" >Curieux <br><br>Motivé <br><br> Esprit d'équipe <br><br> Dynamique <br><br> Sérieux <br> </p>
     </div>

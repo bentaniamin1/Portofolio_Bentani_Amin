@@ -18,7 +18,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
-            height: 98vh;
+            height: 900px;
         }
         header{
             display: flex;
@@ -47,13 +47,18 @@
             display: inline-block;
             padding: 0px 20px;
         }
+        h2{position: relative;
+            top: 100px;
+            text-align: center;
+            justify-content: center;
+        }
         .vue_proj{
             width: 50%;
             height: 59vh;
             background-color:  rgba(238, 248, 238, 0.84);
             position:relative;
             left: 25%;
-            top: 20%;
+            top: 18%;
             border-radius: 16px;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -102,6 +107,13 @@
             width: 180px;
             margin-left: 50px;
             margin-right: 35px;
+            text-decoration: none;
+            color: #0E0D0D;
+            font-size: 16px;
+        }
+        a:hover{
+            color: #fff;
+            transform: scale(1.10);
         }
         .p2{
             grid-area: p2;
@@ -137,7 +149,7 @@
         }
         footer{
                 position:absolute;
-                bottom: 0px;
+                top: 900px;
                 height: 50px;
                 width: 100%;
                 background-color: blueviolet;
@@ -241,7 +253,7 @@
     
         }
             .vue_proj{
-                top: 10%;
+                top: 15%;
                 height: 140vh;
                 width: 370px;
                 left: 5%;
@@ -305,6 +317,7 @@
             padding: 0px;
             padding-left: 0;
             padding-right: 0;
+            text-decoration: none;
             }
             footer{
                 position:absolute;
@@ -348,31 +361,32 @@
             </ul>
         </nav>
     </header>
+    <h2>MES PROJETS</h2>
     <div class="vue_proj">
         <div class="p1">
-            <p>date</p>
-            <a href="">nom du projet</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.anditiis magnam! Neque necessitatibus dolorem unde?</p>
+            <p>06/2021</p>
+            <a href="">Projet de data visualisation</a>
+            <p>Réalisation d’une base de donées et de l’API</p>
         </div>
         <div class="p2">
-            <p>date</p>
-            <a href="">nom du projet</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.anditiis magnam! Neque necessitatibus dolorem unde?</p>
+            <p>06/2021</p>
+            <a href="">Projet Front-end</a>
+            <p>Réalisation d’un site vitrine e-commerce</p>
         </div>
         <div class="p3">
-            <p>date</p>
-            <a href="">nom du projet</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.anditiis magnam! Neque necessitatibus dolorem unde?</p>
+            <p>05/2021</p>
+            <a href="">Projet en Python</a>
+            <p>Un jeu de joute verbale à 2 joueurs en local </p>
         </div>
         <div class="p4">
-            <p>date</p>
-            <a href="">nom du projet</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.anditiis magnam! Neque necessitatibus dolorem unde?</p>
+            <p>04/2021</p>
+            <a href=""> Projet en PHP-SQL</a>
+            <p>Création d’une base de donées et d’un site Blog </p>
         </div>
         <div class="p5">
-            <p>date</p>
-            <a href="">nom du projet</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.anditiis magnam! Neque necessitatibus dolorem unde?</p>
+            <p>02/2021</p>
+            <a href="">Projet Front-end</a>
+            <p>Création d’une plateforme de divertissement</p>
         </div>
     </div>
     <footer>
